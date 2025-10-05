@@ -1,0 +1,10 @@
+flask
+peewee
+werkzeug
+pylint
+python-dotenv
+Flask-CORS
+Flask-Bcrypt
+flask-login
+waitress
+nanoid
