@@ -14,3 +14,7 @@ Topics are for creating a common book for example.
 This will all be private (for now). Nothing will be seen by anyone but the user that created it.
 
 Selective publishing may be added in the future.
+
+## Notes to self.
+
+Check out jasonschema package for validating json payloads to api calls.
