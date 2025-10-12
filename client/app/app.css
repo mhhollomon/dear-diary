@@ -6,11 +6,13 @@ body {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+  background-color: var(--bulma-primary);
+
 }
 
-section.hero a:focus,
-section.hero a:hover,
-section.hero a:focus-visible {
+nav a:focus,
+nav a:hover,
+nav a:focus-visible {
   box-shadow: none;
   background-color: var(--bulma-primary);
   font-weight: bold;

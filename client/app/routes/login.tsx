@@ -40,11 +40,12 @@ export default function Login({
    const location = useLocation();
 
    useEffect(() => {
+      console.log("-- we got to useEffect in Login");
       if (actionData) {
-         console.log(actionData);
+         console.log(`-- actionData: ${JSON.stringify(actionData)}`);
          if (actionData.valid === true) {
             setUser(actionData);
-            const redirectTo = location.state?.from?.pathname || '/write';
+            const redirectTo = location.state?.from?.pathname || '/';
             navigate(redirectTo, { replace: true });
             setLoginMessage(null);
          } else {
