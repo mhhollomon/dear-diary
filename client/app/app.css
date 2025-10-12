@@ -1,0 +1,25 @@
+
+
+html,
+body {
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+
+section.hero a:focus,
+section.hero a:hover,
+section.hero a:focus-visible {
+  box-shadow: none;
+  background-color: var(--bulma-primary);
+  font-weight: bold;
+  border-color: black;
+  border-radius: 8px;
+}
+
+.active-link {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 4px;
+}
